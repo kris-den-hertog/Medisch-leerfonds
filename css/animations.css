@@ -1,0 +1,55 @@
+#BOL, #BBL {
+    position: relative; /* Needed for positioning the pseudo-element */
+}
+
+#BOL::after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 1.5px;
+    background-color: white;
+    bottom: 0;
+    left: 0;
+    transition: width 0.3s ease; 
+}
+
+#BOL:hover::after {
+    width: 100%;
+}
+#BBL::after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 1.5px;
+    background-color: white;
+    bottom: 0;
+    left: 0;
+    transition: width 0.3s ease; 
+}
+
+#BBL:hover::after {
+    width: 100%;
+}
+
+.border, p {
+    cursor: default;
+}
+#FAQ {
+    cursor: pointer;
+}
+
+#animated_Title {
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+
+#animated_Sub {
+    opacity: 0;
+    animation: fadeIn 1s 13s forwards; 
+}
+
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+    }
+}

@@ -1,0 +1,12 @@
+
+#BBL {
+    color: rgb(254, 255, 213);
+}
+#header {
+    background-image: url("../img/headers/Jane_Margolis.jpg");
+    background-size: 100vw;
+    background-repeat: no-repeat;
+}
+ul.a{
+    list-style-type: circle;
+}

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 501.63 298">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #49a4ae;
+        font-family: Futura-Medium, Futura;
+        font-size: 214.28px;
+        font-weight: 500;
+      }
+
+      .cls-2 {
+        fill: #dce9f4;
+        stroke-width: 0px;
+      }
+    </style>
+  </defs>
+  <path class="cls-2" d="m52.8,57.4C100.81,8.75,163.57,2.58,186,.7c49.08-4.11,52.81,11,119.7,16.2,103.41,8.04,136.98-24.77,169.2,1.8,34.91,28.79,31.75,97.22,12.6,141.3-20.35,46.83-59.52,67.98-105.3,92.7-49.58,26.77-103.72,56-162,41.4-54.17-13.57-52.97-50.26-127.8-76.5-50.19-17.6-72.28-8.66-85.5-28.8-21.51-32.77,11.01-96.05,45.9-131.4Z"/>
+  <text class="cls-1" transform="translate(67.67 210.66)"><tspan x="0" y="0">MLF</tspan></text>
+</svg>
