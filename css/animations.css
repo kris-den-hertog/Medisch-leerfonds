@@ -43,9 +43,19 @@
     transition: opacity 1s ease-in-out;
 }
 
-#animated_Sub {
+#animated_Sub, #BOL_Title, #BBL_Title, #BL_Sub {
     opacity: 0;
-    animation: fadeIn 1s 13s forwards; 
+}
+
+#BOL_Title, #BBL_Title {
+    animation: fadeIn 1s .5s forwards;
+}
+#BL_Sub {
+    animation: fadeIn 1s 1.5s forwards;
+}
+
+.fadeInDelay {
+    animation: fadeIn 1s 10s forwards;
 }
 
 @keyframes fadeIn {
@@ -53,3 +63,4 @@
         opacity: 1;
     }
 }
+

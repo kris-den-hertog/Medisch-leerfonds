@@ -49,6 +49,11 @@ header {
     height: 30vw;
     opacity: 1;
 }
+#header_Container {
+    position: relative;
+    top: 6vw;
+    left: 2.5vw;
+}
 
 #foreground_Img {
     top: 0;
@@ -112,6 +117,10 @@ header {
 @media only screen and (max-width: 800px) {
     #header {
         height: 50vw;
+        text-align: center;
+    }
+    #header_Container {
+        top: 11vw;
     }
     #foreground_Img {
        

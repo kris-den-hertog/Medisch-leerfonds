@@ -1,7 +1,10 @@
 var titleElement = document.getElementById("animated_Title");
 
-// Function to start the animation
+
 function startAnimation() {
+
+    document.getElementById('animated_Sub').classList.add('fadeInDelay');
+ 
 
     titleElement.style.opacity = 1;
 
@@ -23,9 +26,12 @@ function startAnimation() {
                     titleElement.innerHTML = "Zo snel mogelijk <br>subsidie regelen?";
                     titleElement.style.opacity = 1;
                 }, 1000); 
-            }, 4000); 
+            }, 3000); 
         }, 1000); 
-    }, 4000); 
+    }, 3000); 
 }
+
+
+
 
 window.onload = startAnimation;
