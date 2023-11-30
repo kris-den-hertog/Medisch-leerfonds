@@ -74,12 +74,6 @@
     align-items: center; 
 }
 
-.corner-radius-1 {
-    border-radius: 50% 35% 50% 40%;
-}
-.corner-radius-2 {
-    border-radius: 40% 30% 50% 50%;
-}
 
 .square {
     margin-left: 3vw;
