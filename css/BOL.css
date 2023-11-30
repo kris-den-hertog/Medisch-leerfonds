@@ -10,7 +10,7 @@
 
 
 .square {
-    margin-top: 10vw;
+    margin-top: 20vw;
     margin-left: auto;
     margin-right: auto;
     color: #003249;
@@ -39,7 +39,7 @@ font-size: 1vw;
 .button {
     width: 20%;
     height: 2vw;
-    font-size: .6vw;
+    font-size: 1vw;
 }
 
 

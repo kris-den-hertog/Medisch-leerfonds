@@ -205,7 +205,7 @@ header {
     background-color: #F5F5F5;
     box-shadow: none;
     border: none;
-    border-radius: 1vw;
+    border-radius: .4vw;
     z-index: 2;
 }
 
