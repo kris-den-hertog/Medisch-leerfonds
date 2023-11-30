@@ -1,13 +1,50 @@
 #BOL {
     color: rgb(254, 255, 213);
 }
+
 #header {
     background-image: url("../img/headers/Skyler_White.jpg");
     background-size: 100vw;
     background-repeat: no-repeat;
 }
+
+.flexcontainer {
+    display: flex;
+    justify-content: center;
+}
+
 @media only screen and (max-width: 800px) {
     #header {
         background-image: url("../img/headers/Skyler_white_R.jpg");
     }
-  }
+}
+
+.buttons{
+    width:max-content;
+}
+.button {
+    width: 350px;
+    height: 35px;
+    background: #49A4AE;
+    border: 0, 5px solid black;
+    border-radius: 8px;
+    transition: background 0.5s;
+    transition-timing-function:ease-in;
+}
+.button:hover{
+    background: #003249;
+    color: white;
+}
+
+.higher {
+    margin: 0;
+}
+.blauw {
+    background: #49A4AE;
+    color: white;
+}
+.foot{
+    margin-top: 20px;
+    display: flex;
+    height: 165px;
+}

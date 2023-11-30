@@ -8,11 +8,47 @@
 #animated_Sub {
     opacity: 0;
 }
+.main_Container {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center; 
+    align-items: center; 
+    margin-top: 0;
+    background-color: #b6e4e8;
+}
 
-.main_Container>p {
-    width: 15%;
-    margin-right: 40px;
+.main_Container > p {
+    width: 25%;
+    margin-top: 6vw;
     flex-wrap: wrap-reverse;
+}
+
+.explanation {
+    margin-top: 4vw;
+    margin-right: 11vw;
+    width: 40vw;
+    height: 25vw;
+    border-radius: 25px;
+    background-color: #0db41b;
+}
+
+.divider {
+    position: absolute;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.divider svg {
+    position: relative;
+    display: block;
+    width: calc(158% + 1.3px);
+    height: 182px;
+}
+
+.divider {
+    fill: #B6E4E8;
 }
 
 
