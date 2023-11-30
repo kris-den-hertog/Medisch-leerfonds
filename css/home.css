@@ -22,6 +22,14 @@
     margin-top: 6vw;
     flex-wrap: wrap-reverse;
 }
+#title_M {
+    color: #49A4AE;
+}
+.text {
+    color: rgb(255, 255, 255);
+    text-shadow: black 0px .1px;
+    font-family: Arial, Helvetica, sans-serif;
+}
 
 .text_Container {
     display: flex;
@@ -66,23 +74,22 @@
     align-items: center; 
 }
 
-
-.border-1px {
-    border: 1px solid #49A4AE;
+.corner-radius-1 {
+    border-radius: 50% 35% 50% 40%;
 }
-
-.corner-radius {
-    border-radius: 30px;
+.corner-radius-2 {
+    border-radius: 40% 30% 50% 50%;
 }
 
 .square {
-    width: 400px;
-    height: 450px;
+    margin-left: 3vw;
+    width: 45vw;
+    height: 35vw;
     text-align: center;
     display: flex;
     flex-direction: column;
     align-items: center;
-    background: white;
+    background: #B6E4E8;
 }
 
 .square>button {
@@ -102,8 +109,59 @@
     #header {
         background-image: url("../img/headers/Gustavo_Fring_R.jpg");
     }
+
+    .main_Container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center; 
+        align-items: center; 
+        text-align: center;
+       
+    }
+    .text_Container {
+        display: flex;
+        flex-direction: column;
+        width: 65vw;
+        text-align: center;
+        margin-top: 70px;
+    }
+    #title_M {
+        font-size: 5vw;
+        
+    }
+    .text {
+        font-size: 3vw;
+    }
+    .explanation {
+        margin-top: 4vw;
+        width: 70vw;
+        height: 40vw;
+        border-radius: 25px;
+        margin-left: auto;
+        margin-right: auto;
+    }
     .divider svg {
         width: calc(158% + 1.3px);
         height: 102px;
     }
+
+    .div_Container {
+        margin-top: 15vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center; 
+        align-items: center; 
+    }
+    .square {
+        margin-top: 10vh;
+        width: 80vw;
+        height: 85vw;
+        
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background: #B6E4E8;
+    }
+
   }
