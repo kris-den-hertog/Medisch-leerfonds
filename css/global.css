@@ -109,11 +109,114 @@ header {
     z-index: 4;
     
 }
+.main_Container {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center; 
+    align-items: center; 
+    margin-top: 0;
+    background-color: #b6e4e8;
+}
+
+
+.main_Container > p {
+    width: 10%;
+    margin-top: 6vw;
+    flex-wrap: wrap-reverse;
+}
+#title_M {
+    color: #49A4AE;
+}
+.text {
+    color: rgb(5, 26, 75);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.text_Container {
+    display: flex;
+    flex-direction: column;
+    width: 40vw;
+}
+.explanation {
+    margin-top: 4vw;
+    margin-right: 11vw;
+    width: 40vw;
+    height: 25vw;
+    border-radius: 25px;
+    background-color: white;
+}
+
+.divider {
+    position: absolute;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.divider svg {
+    position: relative;
+    display: block;
+    width: calc(158% + 1.3px);
+    height: 182px;
+}
+
+
+
+.divider {
+    fill: #B6E4E8;
+}
 
 .information {
     width: 75%;
 }
+.square {
+    margin-left: 3vw;
+    width: 45vw;
+    height: 35vw;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #B6E4E8;
+}
 
+.BL_Title {
+    margin-top: 5vw;
+    color: #49A4AE;
+    font-size: 4vw;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.BL_Text {
+    margin-top: 0;
+    font-size: 1.5vw;
+    color: rgb(5, 26, 75);
+}
+.BL_Text_Container {
+    width: 70%;
+}
+
+.square>button, .button {
+    margin-top: 3vw;
+    width: 30%;
+    height: 3vw;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1vw;
+    background-color: #F5F5F5;
+    box-shadow: none;
+    border: none;
+    border-radius: 1vw;
+    z-index: 2;
+}
+
+.flex {
+    width: 70%;
+    margin-left: 18%;
+}
+
+.one {
+    margin-right: 75px;
+}
 
 #FAQ {
     background-image: url("../img/FAQ.svg");
@@ -126,7 +229,8 @@ header {
     right: 25px;
     z-index: 4;
 }
-.divider-2 {
+
+.custom-shape-divider-bottom-1701368587 {
     margin-top: 15vh;
     position: absolute;
     width: 100%;
@@ -134,23 +238,23 @@ header {
     line-height: 0;
 }
 
-.divider-2 svg {
+.custom-shape-divider-bottom-1701368587 svg {
     position: relative;
     display: block;
     width: calc(158% + 1.3px);
     height: 182px;
 }
 
-.divider-2 .shape-fill {
+.custom-shape-divider-bottom-1701368587 .shape-fill {
     fill: #49A4AE;
 }
 
 footer {
-    margin-top: 35vh;
+    margin-top: 100px;
     display: flex;
     flex-direction: row;
     width: 100%;
-    height: 70px;
+    height: 1vw;
     background-color: #49A4AE;
 }
 @media only screen and (max-width: 800px) {
@@ -172,6 +276,50 @@ footer {
     }
     .sub {
         font-size: 4vw;
+    }
+
+    .main_Container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center; 
+        align-items: center; 
+        text-align: center;
+       
+    }
+    
+    .text_Container {
+        display: flex;
+        flex-direction: column;
+        width: 80vw;
+        text-align: center;
+        margin-top: 70px;
+    }
+   
+    .text {
+        font-size: 3vw;
+        text-shadow: none;
+    }
+    .explanation {
+        margin-top: 4vw;
+        width: 70vw;
+        height: 40vw;
+        border-radius: 25px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .divider svg {
+        width: calc(158% + 1.3px);
+        height: 102px;
+    }
+    .square {
+        margin-top: 10vh;
+        width: 90vw;
+        height: 85vw;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background: #B6E4E8;
     }
       
 

@@ -8,67 +8,9 @@
 #animated_Sub {
     opacity: 0;
 }
-.main_Container {
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: center; 
-    align-items: center; 
-    margin-top: 0;
-    background-color: #b6e4e8;
-}
-
-
-.main_Container > p {
-    width: 10%;
-    margin-top: 6vw;
-    flex-wrap: wrap-reverse;
-}
-#title_M {
-    color: #49A4AE;
-}
-.text {
-    color: rgb(255, 255, 255);
-    text-shadow: black 0px .1px;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-.text_Container {
-    display: flex;
-    flex-direction: column;
-    width: 40vw;
-}
-.explanation {
-    margin-top: 4vw;
-    margin-right: 11vw;
-    width: 40vw;
-    height: 25vw;
-    border-radius: 25px;
-    background-color: white;
-}
-
-.divider {
-    position: absolute;
-    width: 100%;
-    overflow: hidden;
-    line-height: 0;
-    transform: rotate(180deg);
-}
-
-.divider svg {
-    position: relative;
-    display: block;
-    width: calc(158% + 1.3px);
-    height: 182px;
-}
-
-
-
-.divider {
-    fill: #B6E4E8;
-}
 
 .div_Container {
-    margin-top: 45vh;
+    margin-top: 25vh;
     display: flex;
     flex-direction: row;
     justify-content: center; 
@@ -76,76 +18,12 @@
 }
 
 
-.square {
-    margin-left: 3vw;
-    width: 45vw;
-    height: 35vw;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background: #B6E4E8;
-}
 
-.BL_Title {
-    margin-top: 10vh;
-    color: #49A4AE;
-    font-size: 4vw;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-.square>button {
-    width: 235px;
-    height: 26px;
-}
-
-.flex {
-    width: 70%;
-    margin-left: 18%;
-}
-
-.one {
-    margin-right: 75px;
-}
 @media only screen and (max-width: 800px) {
     #header {
         background-image: url("../img/headers/Gustavo_Fring_R.jpg");
     }
 
-    .main_Container {
-        display: flex;
-        flex-direction: column;
-        justify-content: center; 
-        align-items: center; 
-        text-align: center;
-       
-    }
-    
-    .text_Container {
-        display: flex;
-        flex-direction: column;
-        width: 80vw;
-        text-align: center;
-        margin-top: 70px;
-    }
-   
-    .text {
-        font-size: 3vw;
-        color: rgb(5, 26, 75);
-        text-shadow: none;
-    }
-    .explanation {
-        margin-top: 4vw;
-        width: 70vw;
-        height: 40vw;
-        border-radius: 25px;
-        margin-left: auto;
-        margin-right: auto;
-    }
-    .divider svg {
-        width: calc(158% + 1.3px);
-        height: 102px;
-    }
 
     .div_Container {
         margin-top: 15vh;
@@ -154,19 +32,22 @@
         justify-content: center; 
         align-items: center; 
     }
-    .square {
-        margin-top: 10vh;
-        width: 90vw;
-        height: 85vw;
-        text-align: center;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        background: #B6E4E8;
-    }
+
     .BL_Title {
-        font-size: 8vw;
+        font-size: 10vw;
+        margin-top: 13vw;
     }
+    .BL_Text {
+        font-size: 3.5vw;
+    }
+    .square>button {
+        margin-top: 5vw;
+        width: 60%;
+        height: 6vw;
+        font-size: 3vw;
+    
+    }
+
 
 
   }
