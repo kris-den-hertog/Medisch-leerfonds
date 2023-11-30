@@ -18,18 +18,23 @@
 }
 
 .main_Container > p {
-    width: 25%;
+    width: 10%;
     margin-top: 6vw;
     flex-wrap: wrap-reverse;
 }
 
+.text_Container {
+    display: flex;
+    flex-direction: column;
+    width: 40vw;
+}
 .explanation {
     margin-top: 4vw;
     margin-right: 11vw;
     width: 40vw;
     height: 25vw;
     border-radius: 25px;
-    background-color: #0db41b;
+    background-color: white;
 }
 
 .divider {
@@ -47,10 +52,19 @@
     height: 182px;
 }
 
+
+
 .divider {
     fill: #B6E4E8;
 }
 
+.div_Container {
+    margin-top: 45vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center; 
+    align-items: center; 
+}
 
 
 .border-1px {
@@ -87,5 +101,9 @@
 @media only screen and (max-width: 800px) {
     #header {
         background-image: url("../img/headers/Gustavo_Fring_R.jpg");
+    }
+    .divider svg {
+        width: calc(158% + 1.3px);
+        height: 102px;
     }
   }
