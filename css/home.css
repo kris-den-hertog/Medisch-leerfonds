@@ -118,19 +118,19 @@
         text-align: center;
        
     }
+    
     .text_Container {
         display: flex;
         flex-direction: column;
-        width: 65vw;
+        width: 80vw;
         text-align: center;
         margin-top: 70px;
     }
-    #title_M {
-        font-size: 5vw;
-        
-    }
+   
     .text {
         font-size: 3vw;
+        color: rgb(5, 26, 75);
+        text-shadow: none;
     }
     .explanation {
         margin-top: 4vw;
